@@ -1,0 +1,12 @@
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\bin\Debug\net5.0\Core_Layer.deps.json
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\bin\Debug\net5.0\Core_Layer.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\bin\Debug\net5.0\Core_Layer.pdb
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\obj\Debug\net5.0\Core_Layer.csproj.AssemblyReference.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\obj\Debug\net5.0\Core_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\obj\Debug\net5.0\Core_Layer.AssemblyInfoInputs.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\obj\Debug\net5.0\Core_Layer.AssemblyInfo.cs
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\obj\Debug\net5.0\Core_Layer.csproj.CoreCompileInputs.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\obj\Debug\net5.0\Core_Layer.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\obj\Debug\net5.0\refint\Core_Layer.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\obj\Debug\net5.0\Core_Layer.pdb
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Core_Layer\obj\Debug\net5.0\ref\Core_Layer.dll

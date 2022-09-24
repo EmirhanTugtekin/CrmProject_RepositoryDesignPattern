@@ -1,0 +1,15 @@
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\bin\Debug\net5.0\Entity_Layer.deps.json
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\bin\Debug\net5.0\Entity_Layer.runtimeconfig.json
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\bin\Debug\net5.0\Entity_Layer.runtimeconfig.dev.json
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\bin\Debug\net5.0\Entity_Layer.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\bin\Debug\net5.0\Entity_Layer.pdb
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\Entity_Layer.csproj.AssemblyReference.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\Entity_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\Entity_Layer.AssemblyInfoInputs.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\Entity_Layer.AssemblyInfo.cs
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\Entity_Layer.csproj.CoreCompileInputs.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\Entity_Layer.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\refint\Entity_Layer.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\Entity_Layer.pdb
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\Entity_Layer.genruntimeconfig.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Entity_Layer\obj\Debug\net5.0\ref\Entity_Layer.dll

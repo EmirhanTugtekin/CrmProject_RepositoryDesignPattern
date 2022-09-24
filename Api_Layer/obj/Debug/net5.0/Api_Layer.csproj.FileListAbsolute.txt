@@ -1,0 +1,15 @@
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\bin\Debug\net5.0\Api_Layer.deps.json
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\bin\Debug\net5.0\Api_Layer.runtimeconfig.json
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\bin\Debug\net5.0\Api_Layer.runtimeconfig.dev.json
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\bin\Debug\net5.0\Api_Layer.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\bin\Debug\net5.0\Api_Layer.pdb
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\Api_Layer.csproj.AssemblyReference.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\Api_Layer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\Api_Layer.AssemblyInfoInputs.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\Api_Layer.AssemblyInfo.cs
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\Api_Layer.csproj.CoreCompileInputs.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\Api_Layer.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\refint\Api_Layer.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\Api_Layer.pdb
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\Api_Layer.genruntimeconfig.cache
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\Api_Layer\obj\Debug\net5.0\ref\Api_Layer.dll
