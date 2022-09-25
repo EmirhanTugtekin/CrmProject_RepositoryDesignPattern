@@ -1,0 +1,35 @@
+﻿@using Entity_Layer
+@model List<Unit>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <h1>Birim Listesi</h1>
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>#</th>
+            <th>Birim Adı</th>
+            <th>Sil</th>
+            <th>Düzenle</th>
+            <th>Durum</th>
+            <th>Detaylar</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.UnitId</td>
+                <td>@item.UnitName</td>
+                <td><a href="/Unit/DeleteUnit/@item.UnitId" class="btn btn-outline-danger">Sil</a></td>
+                <td><a href="#" class="btn btn-outline-Success">Düzenle</a></td>
+                <td><a href="#" class="btn btn-outline-info">Durum</a></td>
+                <td><a href="#" class="btn btn-outline-warning">Detaylar</a></td>
+            </tr>
+        }
+    </table>
+    <a href="/Unit/AddUnit/" class="btn btn-outline-primary">Yeni Birim Girişi</a>
+
+</div>

@@ -160,3 +160,5 @@ D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer
 D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\UI_Layer.genruntimeconfig.cache
 D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\ref\UI_Layer.dll
 D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\Unit\Index.cshtml.g.cs
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\Unit\AddUnit.cshtml.g.cs

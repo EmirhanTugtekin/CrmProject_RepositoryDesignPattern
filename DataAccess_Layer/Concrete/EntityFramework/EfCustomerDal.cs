@@ -7,9 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess_Layer.EntityFramework
+namespace DataAccess_Layer
 {
     public class EfCustomerDal : GenericRepo<Customer>, ICustomerDal
     {
+        
     }
 }

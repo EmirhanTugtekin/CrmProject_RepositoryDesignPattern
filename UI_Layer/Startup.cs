@@ -50,7 +50,7 @@ namespace UI_Layer
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Unit}/{action=Index}/{id?}");
             });
         }
     }
