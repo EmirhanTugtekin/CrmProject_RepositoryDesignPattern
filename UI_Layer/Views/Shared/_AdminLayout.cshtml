@@ -1,16 +1,41 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
-<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>_AdminLayout</title>
-</head>
-<body>
-    @RenderBody()
+
+@Html.Partial("/Views/AdminLayout/PartialHead.CsHtml")
+
+<body class="hold-transition sidebar-mini">
+    <div class="wrapper">
+
+        @Html.Partial("/Views/AdminLayout/PartialNavbar.CsHtml")
+
+        @Html.Partial("/Views/AdminLayout/PartialSideBar.CsHtml")
+
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <!-- Main content -->
+            <section class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            @RenderBody()
+                            <!-- /.card -->
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
+        </div>
+
+        @Html.Partial("/Views/AdminLayout/PartialFooter.CsHtml")
+
+    </div>
+    @Html.Partial("/Views/AdminLayout/PartialScript.CsHtml")
 </body>
 </html>

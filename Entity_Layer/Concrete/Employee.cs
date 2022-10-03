@@ -21,7 +21,7 @@ namespace Entity_Layer
         public string Surname { get; set; }
 
 
-        public DateTime Birth { get; set; }
+        //public DateTime Birth { get; set; }
 
 
         [StringLength(5)]

@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using Entity_Layer;
+@model List<Employee>
+
+@{
+    string cinsiyet;
+    int sayac = 0;
+}
+
+<br />
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Ad</th>
+        <th>Soyad</th>
+        <th>Mail</th>
+        <th>Cinsiyet</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        if (item.Gender == "Erkek")
+        {
+            cinsiyet = "color: blue; font - weight:bold";
+        }
+        else
+        {
+            cinsiyet = "color: red; font - weight:bold";
+        }
+
+        sayac++;
+
+        <tr>
+            <td>@sayac</td>
+            <td>@item.Name</td>
+            <td>@item.Surname</td>
+            <td>@item.Mail</td>
+            <td><span style="@cinsiyet">@item.Gender</span></td>
+            <td><a href="#" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="#" class="btn btn-outline-success">Güncelle</a></td>
+        </tr>
+    }
+</table>
+<a href="#" class="btn btn-outline-primary">Yeni Çalışan Girişi</a>

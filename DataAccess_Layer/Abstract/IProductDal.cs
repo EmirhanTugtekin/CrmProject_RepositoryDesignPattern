@@ -9,6 +9,6 @@ namespace DataAccess_Layer.Abstract
 {
     public interface IProductDal:IGenericDal<Product>
     {
-
+        List<Product> GetListProductWithCategory();
     }
 }

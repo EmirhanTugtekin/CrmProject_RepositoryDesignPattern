@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "AddEmployee";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+@model Entity_Layer.Employee
+<form method="post">
+
+    <label>Personel Adı</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+
+    <label>Personel Soyadı</label>
+    <input type="text" asp-for="Surname" class="form-control" />
+    <span asp-validation-for="Surname" class="text-danger"></span>
+    <br />
+
+    <label>Personel Mail</label>
+    <input type="text" asp-for="Mail" class="form-control" />
+    <span asp-validation-for="Mail" class="text-danger"></span>
+    <br />
+
+    <label>Personel Şifresi</label>
+    <input type="password" asp-for="Password" class="form-control" />
+    <span asp-validation-for="Password" class="text-danger"></span>
+    <br />
+
+    <label>Personel Cinsiyet</label>
+    <input type="text" asp-for="Gender" class="form-control" />
+    <span asp-validation-for="Gender" class="text-danger"></span>
+    <br />
+
+    <button class="btn btn-outline-info">Personeli Ekle</button>
+</form>
