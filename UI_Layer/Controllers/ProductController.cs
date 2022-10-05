@@ -6,22 +6,30 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
+using BusinessLayer.Abstract;
 
 namespace UI_Layer.Controllers
 {
     public class ProductController : Controller
     {
-        ProductManager productManager = new ProductManager(new EfProductDal());
-        CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+        private readonly IProductService productService;
+        private readonly ICategoryService categoryService;
+
+        public ProductController(IProductService productService, ICategoryService categoryService)
+        {
+            this.productService = productService;
+            this.categoryService = categoryService;
+        }
+
         public IActionResult Index()
         {
-            var values = productManager.TGetListProductWithCategory();
+            var values = productService.TGetListProductWithCategory();
             return View(values);
         }
         [HttpGet]
         public IActionResult AddProduct()
         {
-            List<SelectListItem> values = (from x in categoryManager.TGetListAll()
+            List<SelectListItem> values = (from x in categoryService.TGetListAll()
                                            select new SelectListItem
                                            {
                                                Text = x.Name,
@@ -33,7 +41,7 @@ namespace UI_Layer.Controllers
         [HttpPost]
         public IActionResult AddProduct(Product product)
         {
-            productManager.TInsert(product);
+            productService.TInsert(product);
             return RedirectToAction("Index");
         }
     }

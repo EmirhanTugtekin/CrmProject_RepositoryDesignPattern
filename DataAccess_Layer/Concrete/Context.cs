@@ -1,4 +1,5 @@
 ﻿using Entity_Layer;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess_Layer
 {
-    public class Context:DbContext
+    public class Context:IdentityDbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -18,7 +19,7 @@ namespace DataAccess_Layer
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Role> Roles { get; set; }
+        //public DbSet<Role> Roles { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Unit> Units { get; set; }
     }

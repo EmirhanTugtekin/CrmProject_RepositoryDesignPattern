@@ -169,3 +169,12 @@ D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer
 D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\AdminLayout\PartialScript.cshtml.g.cs
 D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\Product\AddProduct.cshtml.g.cs
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\Shared\Components\Widgets\Default.cshtml.g.cs
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\Shared\Components\Chart\Default.cshtml.g.cs
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Belgelerim\yazılım\Murat Yücedağ Eğitim\projects\Crm_20_09_2022\UI_Layer\obj\Debug\net5.0\Razor\Views\ErrorPage\Error404.cshtml.g.cs

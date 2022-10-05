@@ -8,7 +8,7 @@
 @model List<Employee>
 
 @{
-    string cinsiyet;
+    string cinsiyet="";
     int sayac = 0;
 }
 
@@ -26,11 +26,11 @@
     </tr>
     @foreach (var item in Model)
     {
-        if (item.Gender == "Erkek")
+        if (item.Gender == "Erkek" || item.Gender=="erkek")
         {
             cinsiyet = "color: blue; font - weight:bold";
         }
-        else
+        else if(item.Gender == "Kadın" || item.Gender == "kadın")
         {
             cinsiyet = "color: red; font - weight:bold";
         }

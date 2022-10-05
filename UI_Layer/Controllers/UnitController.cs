@@ -9,10 +9,16 @@ namespace UI_Layer.Controllers
 {
     public class UnitController : Controller
     {
-        UnitManager unitManager=new UnitManager(new EfUnitDal());
+        private readonly IUnitService unitService;
+
+        public UnitController(IUnitService unitService)
+        {
+            this.unitService = unitService;
+        }
+
         public IActionResult Index()
         {
-            var values=unitManager.TGetListAll();
+            var values= unitService.TGetListAll();
             return View(values);
         }
         [HttpGet]
@@ -28,7 +34,7 @@ namespace UI_Layer.Controllers
             if (result.IsValid)
             {
                 unit.UnitStatus = true;
-                unitManager.TInsert(unit);
+                unitService.TInsert(unit);
                 return RedirectToAction("Index");
             }
             else
@@ -44,8 +50,8 @@ namespace UI_Layer.Controllers
         }
         public IActionResult DeleteUnit(int id)
         {
-            var value = unitManager.TGetByID(id);
-            unitManager.TDelete(value);
+            var value = unitService.TGetByID(id);
+            unitService.TDelete(value);
             return RedirectToAction("Index");
         }
     }

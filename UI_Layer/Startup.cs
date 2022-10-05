@@ -1,3 +1,9 @@
+using Business_Layer;
+using BusinessLayer.Abstract;
+using BusinessLayer.Concrete;
+using DataAccess_Layer;
+using DataAccess_Layer.Abstract;
+using DataAccess_Layer.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,6 +29,18 @@ namespace UI_Layer
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IEmployeeService, EmployeeManager>();
+            services.AddScoped<IEmployeeDal, EfEmployeeDal>();
+
+            services.AddScoped<IUnitService, UnitManager>();
+            services.AddScoped<IUnitDal, EfUnitDal>();
+
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICategoryDal,EfCategoryDal>();
+
+            services.AddScoped<IProductService, ProductManager>();
+            services.AddScoped<IProductDal, EfProductDal>();
+
             services.AddControllersWithViews();
         }
 
@@ -39,6 +57,9 @@ namespace UI_Layer
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404", "?code={0}");
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
