@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+@using UI_Layer.Models
+@model UserSignInModel
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+    <h3>Login Sayfası</h3>
+    <form method="post">
+        <label>Kullanıcı Adınız</label>
+        <input type="text" asp-for="Username" class="form-control" />
+        <br />
+        <label>Şifreniz</label>
+        <input type="text" asp-for="Password" class="form-control" />
+        <br />
+        <button class="btn btn-primary">Giriş Yap</button>
+    </form>
+</div>

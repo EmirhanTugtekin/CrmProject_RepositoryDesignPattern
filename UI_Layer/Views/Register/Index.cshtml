@@ -1,0 +1,53 @@
+﻿
+@{
+    Layout = null;
+}
+
+@model UI_Layer.Models.UserSignUpModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <title>Index</title>
+</head>
+
+<body>
+    <div class="container">
+    <form method="post">
+        <label>Adınız</label>
+        <input type="text" asp-for="Name" class="form-control" />
+
+        <label>Soyadınız</label>
+        <input type="text" asp-for="Surname" class="form-control" />
+        <br />
+
+        <label>Mail Adresiniz</label>
+        <input type="text" asp-for="Mail" class="form-control" />
+        <br />
+
+        <label>Kullanıcı Adınız</label>
+        <input type="text" asp-for="Username" class="form-control" />
+        <br />
+
+        <label>Cinsiyetiniz</label>
+        <input type="text" asp-for="Gender" class="form-control" />
+        <br />
+
+        <label>Şifreniz</label>
+        <input type="text" asp-for="Password" class="form-control" />
+        <br />
+
+        <label>Şifre Tekrar</label>
+        <input type="text" asp-for="ConfirmPassord" class="form-control" />
+        <br />
+
+        <button class="btn btn-info">Kayıt Ol</button>
+
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </form>
+    </div>
+</body>
+</html>

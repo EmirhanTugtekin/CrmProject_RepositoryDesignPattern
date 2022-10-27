@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess_Layer
 {
-    public class Context:IdentityDbContext
+    public class Context : IdentityDbContext<AppUser,AppRole,int> 
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -19,8 +19,8 @@ namespace DataAccess_Layer
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Product> Products { get; set; }
-        //public DbSet<Role> Roles { get; set; }
+        public DbSet<Role> Roles { get; set; }
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Unit> Units { get; set; }
+        public DbSet<Message> Messages { get; set; }
     }
 }

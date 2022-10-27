@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
       <PrivateAssets>all</PrivateAssets>
@@ -31,6 +32,10 @@
     <ProjectReference Include="..\DataAccess_Layer\DataAccess_Layer.csproj" />
     <ProjectReference Include="..\DTO_Layer\DTO_Layer.csproj" />
     <ProjectReference Include="..\Entity_Layer\Entity_Layer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>

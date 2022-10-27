@@ -1,9 +1,13 @@
 using Business_Layer;
+using Business_Layer.Abstract;
+using Business_Layer.Concrete;
 using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
 using DataAccess_Layer;
 using DataAccess_Layer.Abstract;
+using DataAccess_Layer.Concrete.EntityFramework;
 using DataAccess_Layer.EntityFramework;
+using Entity_Layer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -14,6 +18,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using UI_Layer.Models;
 
 namespace UI_Layer
 {
@@ -32,14 +37,25 @@ namespace UI_Layer
             services.AddScoped<IEmployeeService, EmployeeManager>();
             services.AddScoped<IEmployeeDal, EfEmployeeDal>();
 
-            services.AddScoped<IUnitService, UnitManager>();
-            services.AddScoped<IUnitDal, EfUnitDal>();
-
             services.AddScoped<ICategoryService, CategoryManager>();
             services.AddScoped<ICategoryDal,EfCategoryDal>();
 
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<IProductDal, EfProductDal>();
+
+            services.AddScoped<IMessageService, MessageManager>();
+            services.AddScoped<IMessageDal, EfMessageDal>();
+
+            services.AddDbContext<Context>();
+
+            //services.AddIdentity<AppUser, AppRole>(x=>
+            //{
+            //    x.Password.RequireUppercase = false;
+            //    x.Password.RequireNonAlphanumeric= false;
+            //    x.Password.RequiredLength = 1;
+            //}).AddEntityFrameworkStores<Context>();
+
+            services.AddIdentity<AppUser, AppRole>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
 
             services.AddControllersWithViews();
         }
@@ -65,13 +81,14 @@ namespace UI_Layer
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Unit}/{action=Index}/{id?}");
+                    pattern: "{controller=Employee}/{action=Index}/{id?}");
             });
         }
     }

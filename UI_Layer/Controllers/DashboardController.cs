@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace UI_Layer.Controllers
+namespace UI_Layer
 {
     public class DashboardController : Controller
     {

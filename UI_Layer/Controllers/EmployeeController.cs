@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Business_Layer.ValidationRules;
 using Business_Layer;
 
-namespace Crm.UILayer.Controllers
+namespace Crm.UILayer
 {
     public class EmployeeController : Controller
     {

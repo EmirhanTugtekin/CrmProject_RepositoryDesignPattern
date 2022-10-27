@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess_Layer.Abstract
 {
-    public interface IUnitDal:IGenericDal<Unit>
+    public interface IMessageDal:IGenericDal<Message>
     {
+        List<Message> GetReceiverMessageList(string mail);
+        List<Message> GetSenderMessageList(string mail);
     }
 }
