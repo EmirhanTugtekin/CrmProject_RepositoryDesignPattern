@@ -55,7 +55,15 @@ namespace UI_Layer
             //    x.Password.RequiredLength = 1;
             //}).AddEntityFrameworkStores<Context>();
 
-            services.AddIdentity<AppUser, AppRole>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
+            services.AddIdentity<AppUser, AppRole>(opts => {
+                opts.User.RequireUniqueEmail = true;
+                opts.User.AllowedUserNameCharacters = "abcçdefghiýjklmnoöpqrsþtuüvwxyzABCDEFGHIÝJKLMNOÖPQRSTUÜVWXYZ0123456789-._@+";
+                opts.Password.RequiredLength = 3;
+                opts.Password.RequireUppercase = false;
+                opts.Password.RequireNonAlphanumeric = false;
+                opts.Password.RequireDigit = false;
+            }
+                ).AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
 
             services.AddControllersWithViews();
         }
